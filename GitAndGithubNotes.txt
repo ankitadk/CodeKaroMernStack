@@ -1,0 +1,10 @@
+Git and Github:
+
+Git data is stored on the cloud i.e. Github.
+
+git --version - check teh git version
+git init - init a git repository
+U - stands for untracked files
+git add index.html - added a file to staging env.
+git commit -m "intro of git" -> creating a log of code changes,
+we can track the changes that we have done.
