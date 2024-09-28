@@ -8,3 +8,7 @@ U - stands for untracked files
 git add index.html - added a file to staging env.
 git commit -m "intro of git" -> creating a log of code changes,
 we can track the changes that we have done.
+git add . - add all the fies to the stage
+git log - lists all the commits
+Ctrl + l - clear the terminal
+git reset --hard cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Clear the updated code and go to the updated version, this command will point the head to the specified commit id
