@@ -6,9 +6,16 @@ git --version - check teh git version
 git init - init a git repository
 U - stands for untracked files
 git add index.html - added a file to staging env.
-git commit -m "intro of git" -> creating a log of code changes,
+git commit -m "intro of git" -> creating a log of code changes
 we can track the changes that we have done.
 git add . - add all the fies to the stage
 git log - lists all the commits
 Ctrl + l - clear the terminal
-git reset --hard cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Clear the updated code and go to the updated version, this command will point the head to the specified commit id
+git reset --hard cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Clear the updated code from the VS Code and go to the updated version, this command will point the head to the specified commit id
+git reset --soft cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Go to the updated version of code without clearing the updated code from VS Code, this command will point the head to the specified commit id
+
+Github:
+Create a new Repo on github.com.
+git remote add origin https://github.com/ankitadk/CodeKaroMernStack.git - add a remote origin i.e. the place where the code needs to be pushed.
+git branch -M main - rename the master branch to main.
+git push -u origin main - push your code to the remote branch namely 'main'.
