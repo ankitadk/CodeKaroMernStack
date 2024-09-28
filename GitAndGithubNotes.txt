@@ -2,7 +2,9 @@ Git and Github:
 
 Git data is stored on the cloud i.e. Github.
 
-git --version - check teh git version
+Git Commands: 
+
+git --version - check the git version
 git init - init a git repository
 U - stands for untracked files
 git add index.html - added a file to staging env.
@@ -19,3 +21,10 @@ Create a new Repo on github.com.
 git remote add origin https://github.com/ankitadk/CodeKaroMernStack.git - add a remote origin i.e. the place where the code needs to be pushed.
 git branch -M main - rename the master branch to main.
 git push -u origin main - push your code to the remote branch namely 'main'.
+
+git clone https://github.com/ankitadk/CodeKaroMernStack.git - Create a new folder and clone the project.
+git pull - pull all the changes from remote repo to the current repo.
+
+Hosting project inside Git:
+Go to the Project folder. Click on Settings. Click on Pages. Select branchname (main) for the deployment. Click on Save.
+A new project link will be created. Refresh the page and Project link will be available.

@@ -6,8 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li>Git init: to init the git in a project</li>
-    </ul>
+<h1>Git and Github:</h1>
+
+<p>Git data is stored on the cloud i.e. Github.<p>
+
+<h2>Git Commands:</h2>
+<ul>
+    <li>git --version - check the git version</li>
+    <li>git init - init a git repository</li>
+    <li>U - stands for untracked files</li>
+    <li>git add index.html - added a file to staging env.</li>
+    <li>git commit -m "intro of git" -> creating a log of code changes. We can track the changes that we have done.</li>
+    <li>git add . - add all the fies to the stage</li>
+    <li>git log - lists all the commits</li>
+    <li>Ctrl + l - clear the terminal</li>
+    <li>git reset --hard cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Clear the updated code from the VS Code and go to the updated version, this command will point the head to the specified commit id</li>
+    <li>git reset --soft cfffa8db45cb625ff2c5ffdad4e31333d8d38054 - Go to the updated version of code without clearing the
+    updated code from VS Code, this command will point the head to the specified commit id</li>
+</ul>
+
+<h2>GitHub:</h2>
+<ul>
+    <li>Create a new Repo on github.com.</li>
+    <li>git remote add origin https://github.com/ankitadk/CodeKaroMernStack.git - add a remote origin i.e. the place where the code needs to be pushed.</li>
+    <li>git branch -M main - rename the master branch to main.</li>
+    <li>git push -u origin main - push your code to the remote branch namely 'main'.</li>
+    <li>git clone https://github.com/ankitadk/CodeKaroMernStack.git - Create a new folder and clone the project.</li>
+    <li>git pull - pull all the changes from remote repo to the current repo.</li>
+</ul>
+
 </body>
 </html>
