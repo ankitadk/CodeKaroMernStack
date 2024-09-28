@@ -21,7 +21,6 @@ Create a new Repo on github.com.
 git remote add origin https://github.com/ankitadk/CodeKaroMernStack.git - add a remote origin i.e. the place where the code needs to be pushed.
 git branch -M main - rename the master branch to main.
 git push -u origin main - push your code to the remote branch namely 'main'.
-
 git clone https://github.com/ankitadk/CodeKaroMernStack.git - Create a new folder and clone the project.
 git pull - pull all the changes from remote repo to the current repo.
 
