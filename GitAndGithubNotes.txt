@@ -33,3 +33,5 @@ Git Branching:
 git branch - shows the list of available branches in the code repo.
 git branch test - creates a new branch with the name as "test".
 git checkout test - Command used to switch to branch 'test'.
+Merging code to the main branch: Switch to the main branch and use the below command.
+git merge test - will merge the code from the 'test' branch to the main branch 'main'.
