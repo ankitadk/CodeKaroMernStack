@@ -28,3 +28,8 @@ git pull - pull all the changes from remote repo to the current repo.
 Hosting project inside Git:
 Go to the Project folder. Click on Settings. Click on Pages. Select branchname (main) for the deployment. Click on Save.
 A new project link will be created. Refresh the page and Project link will be available.
+
+Git Branching:
+git branch - shows the list of available branches in the code repo.
+git branch test - creates a new branch with the name as "test".
+git checkout test - Command used to switch to branch 'test'.
